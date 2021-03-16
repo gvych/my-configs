@@ -1,0 +1,24 @@
+'body atom-text-editor.autocomplete-active':
+  'ctrl-k': 'autocomplete-plus:move-up'
+  'ctrl-j': 'autocomplete-plus:move-down'
+  'ctrl-b': 'autocomplete-plus:page-up'
+  'ctrl-f': 'autocomplete-plus:page-down'
+  'ctrl-g': 'autocomplete-plus:move-to-top'
+  'ctrl-G': 'autocomplete-plus:move-to-bottom'
+'atom-text-editor.ex-mode-editor':
+  'ctrl-[': 'ex-mode:close'
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-m': 'vim-mode-plus:move-to-first-character-of-line-down'
+  'ctrl-h': 'core:move-left'
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'ctrl-m': 'editor:newline'
+'atom-text-editor':
+  'ctrl-m': 'core:confirm'
+  'ctrl-h': 'core:backspace'
+  'cmd-l': 'window:focus-pane-on-right'
+  'cmd-h': 'window:focus-pane-on-left'
+  'cmd-k': 'window:focus-pane-above'
+  'cmd-j': 'window:focus-pane-below'
+'body':
+  'ctrl-shift-e': 'pane:split-right'
+  'ctrl-shift-o': 'pane:split-down'

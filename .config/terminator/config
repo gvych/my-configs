@@ -1,0 +1,54 @@
+[global_config]
+  borderless = True
+  enabled_plugins = CustomCommandsMenu, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#d1d1d1"
+  window_state = maximise
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  close_term = None
+  close_window = None
+  go_down = <Super>j
+  go_left = <Super>h
+  go_right = <Super>l
+  go_up = <Super>k
+  group_all = None
+  group_tab = None
+  page_down = <Shift><Alt>j
+  page_up = <Shift><Alt>k
+  resize_down = <Shift><Control>j
+  resize_left = <Shift><Control>h
+  resize_right = <Shift><Control>l
+  resize_up = <Shift><Control>k
+  switch_to_tab_1 = <Control>1
+  switch_to_tab_10 = <Control>0
+  switch_to_tab_2 = <Control>2
+  switch_to_tab_3 = <Control>3
+  switch_to_tab_4 = <Control>4
+  switch_to_tab_5 = <Control>5
+  switch_to_tab_6 = <Control>6
+  switch_to_tab_7 = <Control>7
+  switch_to_tab_8 = <Control>8
+  switch_to_tab_9 = <Control>9
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#807777"
+    font = Monospace 11
+    foreground_color = "#ffffff"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    use_system_font = False

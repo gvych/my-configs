@@ -1,0 +1,44 @@
+"*":
+  "ansible-vault":
+    vault_automatic_de_and_encrypt: true
+  "atom-package-sync": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+    useCoreMovementCommands: false
+  core:
+    disabledPackages: [
+      "linter-ui-default"
+      "linter-ansible-syntax"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 21
+  "exception-reporting":
+    userId: "d020ca76-596a-4f65-b759-0e7bfeddcdf2"
+  "file-types":
+    ".*.yml$": "source.ansible-advanced"
+    ".*/group_vars/.*": "source.ansible-advanced"
+    ".*/host_vars/.*": "source.ansible-advanced"
+  "linter-ansible-linting":
+    rulesDirDefault: true
+    rulesDirs: [
+      ".ansible-lint-rules/rules"
+    ]
+  "linter-ansible-syntax":
+    hostInventory: "hosts"
+  "linter-ui-default":
+    panelHeight: 329
+  tabs:
+    enableMruTabSwitching: false
+  welcome:
+    showOnStartup: false
+".ansible-advanced.source":
+  editor:
+    autoIndent: true
+    showIndentGuide: true
+    showInvisibles: true
+".ansible.source":
+  editor:
+    autoIndentOnPaste: true
+    showIndentGuide: true
+    showInvisibles: true
